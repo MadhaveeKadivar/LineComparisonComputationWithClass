@@ -24,6 +24,7 @@ namespace LineComparisonComputationProgram
             //Console.WriteLine("\n\nComparison between lines....");
             //twoLineComparison.Comparison();
 
+            //UC3
             DisplayComarisonResult displayComarisonResult = new DisplayComarisonResult();
             displayComarisonResult.FirstLineLength();
             displayComarisonResult.SecondLineLength();
