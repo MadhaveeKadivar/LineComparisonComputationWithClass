@@ -11,6 +11,11 @@ namespace LineComparisonComputationProgram
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Line Comparison Computation Program");
+
+            FindLineLength findLineLength = new FindLineLength();
+            findLineLength.Length();
+
+            Console.ReadLine();
         }
     }
 }
